@@ -1,0 +1,61 @@
+# Java
+*.class
+*.jar
+*.war
+*.ear
+
+# Maven
+/logs/
+/target/
+!.mvn/wrapper/maven-wrapper.jar
+
+# IntelliJ IDEA
+*.iml
+.idea/
+*.ipr
+*.iws
+out/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Others
+*.log
+*.tmp
+*.swp
+
+# HTTP Client
+*.http
+
+# Node
+node_modules/
+
+# VS Code
+.vscode/
+
+# Mac system files
+.DS_Store
+
+# Ignore generated sources
+**/generated-sources/
+**/generated-test-sources/
+
+# Ignore build output
+**/build/
+
+# Ignore environment files
+.env
+.env.*
+
+# Ignore backup files
+*~
+*.bak
+*.old
+
+# Ignore dependency directories
+**/protoc-dependencies/
+**/protoc-plugins/
+
+# Ignore JetBrains IDE project files
+.idea/
