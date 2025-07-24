@@ -36,14 +36,6 @@
             </DockerEnvVarImpl>
           </list>
         </option>
-        <option name="portBindings">
-          <list>
-            <DockerPortBindingImpl>
-              <option name="containerPort" value="4004" />
-              <option name="hostPort" value="4004" />
-            </DockerPortBindingImpl>
-          </list>
-        </option>
         <option name="commandLineOptions" value="--network internal" />
         <option name="sourceFilePath" value="auth-service/Dockerfile" />
       </settings>
