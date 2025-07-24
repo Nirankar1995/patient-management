@@ -25,9 +25,6 @@ Thumbs.db
 *.tmp
 *.swp
 
-# HTTP Client
-*.http
-
 # Node
 node_modules/
 

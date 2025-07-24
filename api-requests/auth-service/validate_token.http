@@ -1,0 +1,6 @@
+### GET request to example server
+GET http://localhost:4003/api/auth/validate
+Authorization: Bearer {{token}}
+
+
+###
