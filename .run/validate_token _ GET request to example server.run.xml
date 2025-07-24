@@ -1,5 +1,0 @@
-<component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="validate_token | GET request to example server" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" nameIsGenerated="true" path="$PROJECT_DIR$/api-requests/auth-service/validate_token.http" executionIdentifier="GET request to example server" runType="Run single request">
-    <method v="2" />
-  </configuration>
-</component>
