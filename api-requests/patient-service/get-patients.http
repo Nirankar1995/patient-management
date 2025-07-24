@@ -5,3 +5,4 @@ GET http://localhost:4000/api/patients
 
 ### Get Request After adding api gateway
 GET http://localhost:4003/api/patients
+Authorization: Bearer {{token}}
