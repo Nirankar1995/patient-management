@@ -10,4 +10,17 @@ Content-Type: application/json
   "registeredDate": "2024-11-28"
 }
 
+### Creates a new patient entity after deploying application in localstack
+POST http://lb-ffa0f47b.elb.localhost.localstack.cloud:4003/api/patients
+Content-Type: application/json
+Authorization: Bearer {{token}}
+
+{
+  "name": "John Doe localstack test1",
+  "email": "john_localstack_test1@example.com",
+  "address": "123 main street22",
+  "dateOfBirth": "1995-09-09",
+  "registeredDate": "2024-11-28"
+}
+
 ###

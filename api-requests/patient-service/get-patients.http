@@ -6,3 +6,7 @@ GET http://localhost:4000/api/patients
 ### Get Request After adding api gateway
 GET http://localhost:4003/api/patients
 Authorization: Bearer {{token}}
+
+### Get Request After adding deploying application in localstack
+GET http://lb-b7e37df4.elb.localhost.localstack.cloud:4003/api/patients
+Authorization: Bearer {{token}}
